@@ -215,3 +215,17 @@ color: white;
     }
 }
 
+/* Fix desktop cards */
+.box {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Fix images overflowing card borders */
+.box img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
